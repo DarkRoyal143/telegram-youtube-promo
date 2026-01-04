@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Promo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+
+  <div class="card">
+    <h2>🎥 Watch & Earn</h2>
+
+    <iframe
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      allowfullscreen>
+    </iframe>
+
+    <div id="timer">60</div>
+    <button id="watchBtn" disabled>Watching...</button>
+  </div>
+
+  <div class="card">
+    <h3>🚀 Promote Your Video</h3>
+    <input id="videoUrl" placeholder="YouTube Video URL">
+    <button onclick="promote()">Promote (20 coins)</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
