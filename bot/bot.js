@@ -11,7 +11,7 @@ bot.onText(/\/start/, (msg) => {
           {
             text: "🚀 Open App",
             web_app: {
-              url: "https://YOUR_DOMAIN/webapp"
+              url: "https://github.com/DarkRoyal143/telegram-youtube-promo-webapp.git"
             }
           }
         ]
